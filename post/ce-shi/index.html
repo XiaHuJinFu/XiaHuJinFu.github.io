@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Treplebee</title>
+<title>測試 | Treplebee</title>
 <meta name="description" content="分享三倍的快樂" />
 <link rel="shortcut icon" href="http://treplebee.com//favicon.ico?v=1570109194338">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -74,65 +74,72 @@
   </div>
 </div>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="http://treplebee.com//post/ce-shi">
-        <h2 class="post-title">測試</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          03-10-2019
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="http://treplebee.com//post/hello-gridea">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          12-12-2018
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="http://treplebee.com//tag/fZlyeCu5d" class="post-tag">
-            # Gridea
-          </a>
-        
-      </div>
-      
-        <a href="http://treplebee.com//post/hello-gridea" class="post-feature-image" style="background-image: url('http://treplebee.com//post-images/hello-gridea.png')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              測試
+            </h2>
+            <div class="post-info">
+              <span>
+                03-10-2019
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>这一切的背后到底是道德的沦丧，还是人性的扭曲。这句话是怎么来的</p>
 
-      </div>
-    </article>
-  
-</div>
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
 
-    
-        <div class="pagination-container">
-  
-  
-</div>
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="http://treplebee.com//post/hello-gridea">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
 
-    
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'ff524fb4b9d048da32c2',
+    clientSecret: 'c7d5480bbb47146de3634a893ad94846d01944c8',
+    repo: 'XiaHu-JinFu.github.io',
+    owner: 'XiaHu-JinFu',
+    admin: ['XiaHu-JinFu'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
         <div class="site-footer">
   © 2016 - 2019 Copyright Treplebee. All Rights Reserved. | 
   <a class="rss" href="http://treplebee.com//atom.xml" target="_blank">RSS</a>
