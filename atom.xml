@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://treplebee.com/</id>
     <title>Treplebee</title>
-    <updated>2020-01-13T21:44:18.002Z</updated>
+    <updated>2020-01-13T21:45:23.426Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://treplebee.com/"/>
     <link rel="self" href="https://treplebee.com//atom.xml"/>
